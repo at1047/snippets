@@ -1,0 +1,9 @@
+snippet inkfig "Insert Inkscape figure"
+\begin{figure}[h]
+    \centering
+    \def\svgwidth{\linewidth}
+    \input{figures/$1.pdf_tex}
+    \caption{$2}
+    \label{fig:$1}
+\end{figure}
+endsnippet
